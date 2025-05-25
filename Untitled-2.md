@@ -1,0 +1,30 @@
+```
+└── 📁frontend
+    └── 📁public
+        └── screenshot-for-readme.png
+        └── vite.svg
+    └── 📁src
+        └── App.jsx
+        └── 📁components
+            └── Navbar.jsx
+            └── NoteCard.jsx
+            └── NotesNotFound.jsx
+            └── RateLimitedUI.jsx
+        └── index.css
+        └── 📁lib
+            └── axios.js
+            └── utils.js
+        └── main.jsx
+        └── 📁pages
+            └── CreatePage.jsx
+            └── HomePage.jsx
+            └── NoteDetailPage.jsx
+    └── eslint.config.js
+    └── index.html
+    └── package-lock.json
+    └── package.json
+    └── postcss.config.js
+    └── README.md
+    └── tailwind.config.js
+    └── vite.config.js
+```

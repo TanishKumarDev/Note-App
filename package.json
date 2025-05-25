@@ -1,0 +1,20 @@
+{
+  "name": "noteapp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm install --prefix backend && npm install --prefix frontend"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TanishKumarDev/Note-App.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TanishKumarDev/Note-App/issues"
+  },
+  "homepage": "https://github.com/TanishKumarDev/Note-App#readme",
+  "description": ""
+}
