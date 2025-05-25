@@ -1,0 +1,70 @@
+# ======================
+# Root .gitignore for noteapp
+# ======================
+
+# Ignore node_modules in both frontend and backend
+/backend/node_modules/
+/frontend/node_modules/
+
+# Logs
+*.log
+**/logs/
+**/log/
+
+# Environment files (backend and frontend)
+/backend/.env
+/frontend/.env
+.env
+.env.local
+.env.*.local
+
+# Build output
+/frontend/dist/
+/frontend/build/
+
+/backend/dist/
+/backend/build/
+
+# Vite cache and config output
+/frontend/.vite/
+/frontend/vite.config.js.local
+
+# Coverage reports
+/coverage/
+/frontend/coverage/
+/backend/coverage/
+
+# OS files
+.DS_Store
+
+# VSCode settings folder
+.vscode/
+
+# npm and yarn lock files (optional: if you don't want to commit these)
+/frontend/package-lock.json
+/backend/package-lock.json
+/frontend/yarn.lock
+/backend/yarn.lock
+
+# IDE/editor files
+.idea/
+*.iml
+
+# Misc
+*.tgz
+*.pid
+*.seed
+*.pid.lock
+
+# Frontend specific files
+/frontend/node_modules/
+/frontend/dist/
+/frontend/build/
+/frontend/.env
+
+# Backend specific files
+/backend/node_modules/
+/backend/dist/
+/backend/build/
+/backend/.env
+
